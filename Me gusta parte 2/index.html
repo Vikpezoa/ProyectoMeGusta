@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Likes</title>
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body>
+        <div class="contenedorGlobal">
+            <div class="heading">
+                <h1>Network</h1>
+                <h1 id="mainTitle">Your Feed</h1>
+            </div>
+            <div class="mainContenedor">    
+                <!-- Contenedor mitad izquierda -->
+                <div class="contenedorIzq">
+                    <img src="./Imagenes/user-circle.png" alt="foto user">
+                    <a href="#">Add an avatar</a>
+                    <h2>James Doe</h2>
+                </div>
+                <!-- Contenedores mitad derecha -->
+                <div class="contenedoresDer">
+                    <!-- Contenedor 1/3 -->
+                    <div class="containerDer1">
+                        <div class="bloque-superior">
+                            <h2>Neil M</h2>
+                            <h3 class="displayLikes"><span class="numLikes1">9</span> like(s)</h3>
+                            <button onclick="sumaLikes('.numLikes1')">Like</button>
+                        </div>  
+                        <div class="bloque-inferior">
+                            <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                        </div> 
+                    </div>
+                    <div class="containerDer2">
+                        <!-- Contenedor 2/3 -->
+                        <div class="bloque-superior">
+                            <h2>Nichole K</h2>
+                            <h3 id="displayLikes"><span class="numLikes2">12</span> like(s)</h3>
+                            <button onclick="sumaLikes('.numLikes2')">Like</button>
+                        </div>  
+                        <div class="bloque-inferior">
+                            <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                        </div>
+                    </div> 
+                    <!-- Contenedor 3/3 -->
+                    <div class="containerDer3">
+                        <div class="bloque-superior">
+                            <h2>Jim R</h2>
+                            <h3 class="displayLikes"><span class="numLikes3">9</span> like(s)</h3>
+                            <button onclick="sumaLikes('.numLikes3')">Like</button>
+                        </div>   
+                        <div class="bloque-inferior">
+                            <p>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    <script src="./js/index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,110 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0; 
+}
+
+.contenedorGlobal {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    background-color: black;
+    width: 605px;
+    height: 60px; 
+    display: flex;
+    padding-left: 10px;
+} 
+
+#mainTitle {
+    color: black;
+    background-color: white;
+    justify-content: center; 
+    margin-bottom: 0;
+}
+
+.mainContenedor {
+    display: flex;
+}
+
+
+/* Contenedores derechos */
+.contenedoresDer {
+    display: flex;
+    flex-direction: column;
+    width: 410px;   
+    margin-left: 20px;
+}
+
+.containerDer1 {
+    border: 2px solid black; 
+    height: 120px;
+}
+
+.containerDer2 {
+    border: 2px solid black; 
+    margin: 10px 0;
+    height: 120px;
+}
+
+.containerDer3 {
+    border: 2px solid black;
+    height: 120px;
+}
+
+.bloque-superior {
+    display: flex;
+    justify-content: space-between; 
+    padding-top: 16px;
+}
+
+.bloque-inferior {
+    padding-left: 10px;
+}
+
+button {
+    font-size: 17px;
+    margin: 4px 13px;
+    width: auto;
+    height: 28px;
+    background-color: rgb(255, 225, 0);
+    border: 2px solid black;
+    box-shadow: 3px 3px black; 
+}
+
+/* Contenedor izquierdo */
+.contenedorIzq {
+    width: 150px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    margin-right: 20px;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+}
+
+h3 {
+    padding-top: 8px;
+}
+
+h2 {
+    padding-top: 6px;
+    padding-left: 10px;
+}
+
+a {
+    color: rgb(26, 134, 229);
+}
+
+#displayLikes {
+    padding-right: 40px;
+}

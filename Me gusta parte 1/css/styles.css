@@ -1,0 +1,36 @@
+* {
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: left;
+    margin-left: 150px;
+    margin-top: 50px;
+    width: 340px;
+    /* height: 150px; */
+    border: 2px solid black;
+}
+
+.bloque-superior {
+    display: flex;
+    justify-content: space-around; 
+}
+
+.bloque-inferior {
+    padding-left: 10px;
+}
+
+button {
+    font-size: 17px;
+    margin-top: 20px;
+    width: auto;
+    height: 28px;
+    background-color: rgb(255, 225, 0);
+    border: 2px solid black;
+    box-shadow: 3px 3px black; 
+}
+
+h3 {
+    padding-top: 6px;
+}
